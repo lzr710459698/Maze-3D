@@ -1,0 +1,323 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 16228 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\unity\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/82441/My project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+63531
+Successfully changed project path to: C:/Users/82441/My project
+C:/Users/82441/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 98.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path E:/unity/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/82441/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 with Max-Q Design (ID=0x1f10)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   25.21.14.1749
+Initialize mono
+Mono path[0] = 'E:/unity/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'E:/unity/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/unity/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/unity/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/unity/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004688 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 83.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.013 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1014ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (716ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (174ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (420ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007028 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.750 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1751ms)
+		BeginReloadAssembly (173ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1381ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (329ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (768ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (392ms)
+				ProcessInitializeOnLoadMethodAttributes (249ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2448 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (57.1 KB). Loaded Objects now: 2890.
+Memory consumption went from 94.1 MB to 94.1 MB.
+Total: 13.205200 ms (FindLiveObjects: 0.287100 ms CreateObjectMapping: 0.176500 ms MarkObjects: 12.618900 ms  DeleteObjects: 0.121000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 992441.167185 seconds.
+  path: Assets/Game Assets/Prefabs/Stone/Doors/Door-Stone (1).prefab
+  artifactKey: Guid(3026cfe035107be4eb17b0ed93596957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Prefabs/Stone/Doors/Door-Stone (1).prefab using Guid(3026cfe035107be4eb17b0ed93596957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854b05644ae16a434437d2d432705564') in 0.215557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Game Assets/Models/Stone/Corner-Stone-Model-02.fbx
+  artifactKey: Guid(08d12cc52cf95df4aad9e9ec0dc4c95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Models/Stone/Corner-Stone-Model-02.fbx using Guid(08d12cc52cf95df4aad9e9ec0dc4c95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed970e988cfed248dec546a000be8101') in 0.266036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Game Assets/Prefabs/Stone/Walls/Wall-Stone (1).prefab
+  artifactKey: Guid(e72f1a178c825f84bac03b6f867c7dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Prefabs/Stone/Walls/Wall-Stone (1).prefab using Guid(e72f1a178c825f84bac03b6f867c7dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a6bccc3598953eca0885f62d7dba0b') in 0.014382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Game Assets/Models/Stone/Floor-Stone-Model-01.fbx
+  artifactKey: Guid(f82ce6fd18315eb44ad3a7799a799667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Models/Stone/Floor-Stone-Model-01.fbx using Guid(f82ce6fd18315eb44ad3a7799a799667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e776657b25118a964b859347616dc5') in 0.021849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Game Assets/Prefabs/Wood/Corners/Corner-Wood (4).prefab
+  artifactKey: Guid(c4966d711f437fe44bbd7d3261a38732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Prefabs/Wood/Corners/Corner-Wood (4).prefab using Guid(c4966d711f437fe44bbd7d3261a38732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5da887b5610b149f9d053530d43fc5') in 0.025373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Game Assets/Gun3D Collection/Models/hellwailer.FBX
+  artifactKey: Guid(fccd8e251d698f7449ed9aca4bacc50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Gun3D Collection/Models/hellwailer.FBX using Guid(fccd8e251d698f7449ed9aca4bacc50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed146cb6a8bd04e6b0616db6d1b6b0f1') in 0.043402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Game Assets/Models/Stone/Wall-Stone-Model-01.fbx
+  artifactKey: Guid(c8a232c4315f1124082197104feffe9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Models/Stone/Wall-Stone-Model-01.fbx using Guid(c8a232c4315f1124082197104feffe9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae4947748682c0da11d6a12d16558ac') in 0.024242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Game Assets/Models/Stone/Wall-Stone-Model-03.fbx
+  artifactKey: Guid(94fa54c1e3460ec4daa350800b4d8f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Models/Stone/Wall-Stone-Model-03.fbx using Guid(94fa54c1e3460ec4daa350800b4d8f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060988474142cb3655a42d0f455d12bb') in 0.024740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Game Assets/Prefabs/Environment/AI_SpiderBOT2.prefab
+  artifactKey: Guid(dc151e3951f4c994a9728ee3b0868c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Prefabs/Environment/AI_SpiderBOT2.prefab using Guid(dc151e3951f4c994a9728ee3b0868c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a104b78a38962910872beb33fc1fac7') in 0.214871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Game Assets/Halloween3D Material Assets/_Prefabs/Pumpkin_02.prefab
+  artifactKey: Guid(1bc636ff02c622f439cf73b4f0aa9cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Halloween3D Material Assets/_Prefabs/Pumpkin_02.prefab using Guid(1bc636ff02c622f439cf73b4f0aa9cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f87b7c8468e21712c0c341cc35fd65c') in 0.014404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Game Assets/Prefabs/Wood/Doors/Door-Wood (1).prefab
+  artifactKey: Guid(e326efa3bf67ff04f9920dbd957aba2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Prefabs/Wood/Doors/Door-Wood (1).prefab using Guid(e326efa3bf67ff04f9920dbd957aba2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2815c318de9e28e24b72f400808f76') in 0.018571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Game Assets/Models/Wood/Door-Wood-Model-02.fbx
+  artifactKey: Guid(f0e081e328e30854da83a08974ef6b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Models/Wood/Door-Wood-Model-02.fbx using Guid(f0e081e328e30854da83a08974ef6b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7e47f5acb8694821ce050fdc86c0bc') in 0.021309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Game Assets/Models/Stone/Wall-Stone-Model-02.fbx
+  artifactKey: Guid(bbc007129f2c6534c9e70e722e90499f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Models/Stone/Wall-Stone-Model-02.fbx using Guid(bbc007129f2c6534c9e70e722e90499f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b629faad01e24f4dd6f70a8eb93e559') in 0.026496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Game Assets/Halloween3D Material Assets/_Prefabs/Cauldron_01.prefab
+  artifactKey: Guid(1795059418cbe984a9f659ea409db85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Halloween3D Material Assets/_Prefabs/Cauldron_01.prefab using Guid(1795059418cbe984a9f659ea409db85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9836915302adae608792303d70eb49') in 0.016374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Game Assets/Halloween3D Material Assets/_Prefabs/Lamp_02.prefab
+  artifactKey: Guid(d7c4a1eaebbfe2647a4f25b1adde5211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Halloween3D Material Assets/_Prefabs/Lamp_02.prefab using Guid(d7c4a1eaebbfe2647a4f25b1adde5211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64284a6d3680811c599d613e94b2f41') in 0.015498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Game Assets/Models/Wood/Door-Wood-Model-03.fbx
+  artifactKey: Guid(5bd2be986c1e9824c9fc2e7b28a930c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Models/Wood/Door-Wood-Model-03.fbx using Guid(5bd2be986c1e9824c9fc2e7b28a930c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5246e56819228c6fd91b18e6e04e1e7') in 0.023406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Game Assets/Models/Stone/Wall-Stone-Model-04.fbx
+  artifactKey: Guid(f631627b7ea6bd94b84ea500530c87bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Models/Stone/Wall-Stone-Model-04.fbx using Guid(f631627b7ea6bd94b84ea500530c87bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856f5660dcd07e108f537ecc317145f1') in 0.021838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Game Assets/Prefabs/Environment/AI_SpiderBOT.prefab
+  artifactKey: Guid(36e0829fa89894b44b54b1cdc7f0f852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Prefabs/Environment/AI_SpiderBOT.prefab using Guid(36e0829fa89894b44b54b1cdc7f0f852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f91f62134221aa702da5fa3c48da141') in 0.025777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Game Assets/Particle Effects/Prefab/Flare.prefab
+  artifactKey: Guid(339d390dedc45e64b8c71bffc3375d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Particle Effects/Prefab/Flare.prefab using Guid(339d390dedc45e64b8c71bffc3375d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1ffcdcfd4300bcdba57e5aa88bd8dd') in 0.026981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Game Assets/Prefabs/Environment/GameBaseSided.prefab
+  artifactKey: Guid(88cf298419f1ae045b0dab85fd332e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Prefabs/Environment/GameBaseSided.prefab using Guid(88cf298419f1ae045b0dab85fd332e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f20d8a7e3638931c241af46a032cd8') in 0.346564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Game Assets/Halloween3D Material Assets/FBX/Cauldron_02.fbx
+  artifactKey: Guid(65c60ec06b0707e4f97e1ebf1474a82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Halloween3D Material Assets/FBX/Cauldron_02.fbx using Guid(65c60ec06b0707e4f97e1ebf1474a82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebaed23971b333da146983f6a63aa20b') in 0.023942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Game Assets/Prefabs/Stone/Corners/Corner-Stone (1).prefab
+  artifactKey: Guid(5ad9ed5263f46ab4dbf19b48295add63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Prefabs/Stone/Corners/Corner-Stone (1).prefab using Guid(5ad9ed5263f46ab4dbf19b48295add63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed84cad2c39c2cc751b316f7e12658a6') in 0.015728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Game Assets/Halloween3D Material Assets/_Prefabs/Fence.prefab
+  artifactKey: Guid(bb44ef16b180b6941bbe4caf411f6249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Halloween3D Material Assets/_Prefabs/Fence.prefab using Guid(bb44ef16b180b6941bbe4caf411f6249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d43227de43e3915d173a1af29d6372') in 0.016311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Game Assets/Prefabs/Stone/Floors/Floor-Stone (2).prefab
+  artifactKey: Guid(bf6eae279b80dd743be4cb4fbc4b4334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Prefabs/Stone/Floors/Floor-Stone (2).prefab using Guid(bf6eae279b80dd743be4cb4fbc4b4334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007a474bedec59bb49d3f7442ac8550d') in 0.018173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Game Assets/Halloween3D Material Assets/FBX/Tombstone_01.fbx
+  artifactKey: Guid(9fb945c7f96dd104692c2818ff771960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Halloween3D Material Assets/FBX/Tombstone_01.fbx using Guid(9fb945c7f96dd104692c2818ff771960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5d134898574fd0de41c8542c442a1f') in 0.025383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Game Assets/Prefabs/Stone/Floors/Floor-Stone (3).prefab
+  artifactKey: Guid(2e3557303b0b5774aba8c8e4f245d3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Prefabs/Stone/Floors/Floor-Stone (3).prefab using Guid(2e3557303b0b5774aba8c8e4f245d3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b91b2571c858cdaaeb4716812bcd0c') in 0.015560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Game Assets/Models/Wood/Floor-Wood-Model-01.fbx
+  artifactKey: Guid(35b4e51cccb1aef4c97d8691e64bcdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Models/Wood/Floor-Wood-Model-01.fbx using Guid(35b4e51cccb1aef4c97d8691e64bcdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd929491214b178953141e879ce85707d') in 0.018759 seconds 
