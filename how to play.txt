@@ -1,0 +1,58 @@
+Rules introduction:
+The maze is a 3D maze. 
+You can increase your points by moving as much as possible to the end or killing enemies. 
+The goal is to get a high score, and finally break through the maze and find the exit.
+The roads of the maze extend in all directions, 
+and you can press the Q key to open the mini map for a better experience. 
+On the mini map, you can see the terrain of the surrounding maze, 
+and enemies and props are also marked on the map by dots of different colors. 
+Making it as far as you can towards the finish will boost your points.
+The maze is full of venomous spiders that will cause your health to decrease when they come into contact with you. 
+When health is 0 you will die and lose the game. 
+You can quickly move away before disturbing them; 
+or click mouse right button, switch out weapons, and click left button towards the spiders to shoot them. 
+Spiders also die when their health drops to 0, and increase your points. 
+But be careful, your speed will be reduced when you equip a weapon.
+When you reach the end or die, the game will end and display your points, 
+the highest score in history, the time used, the enemies killed and the number of bullets used. 
+In addition, you can restart a game by click "play again".
+
+
+
+Operation guide: 
+Up arrow or W keys: move forward
+Down arrow or S keys: move backward
+Left arrow or A keys: move left
+Right arrow or D keys: move right
+Q key: open or close mini map
+Mouse move: control perspective
+Right mouse button: switch weapon
+Left mouse button: shoot
+Avoid or kill the spiders! Contact with spiders causes loss of health.
+
+
+Help (Q&A)
+
+Q: Why do I feel dizzy and nauseous after entering the game scene?
+A: You may have 3D vertigo, please stay away from the screen; if you still feel unwell, please exit the game.
+
+Q: How to check my health and monster's health?
+A: There is a red bar at the top of the screen, which is the character's health; the monster's health is not displayed.
+
+Q: Why did I die inexplicably?
+A: When monsters approach you, your health will decrease. 
+     Please stay vigilant and observe your surroundings from time to time. Monsters can be seen on the minimap.
+
+Q: I don't see the mini map displayed on the page.
+A: The mini map is turned off by default when the game starts. 
+     It can be turned on by pressing the Q key, and it can be turned off by pressing it again.
+
+Q: What do the yellow and red dots on the Mini map represent?
+A: Yellow dots represent props (such as pumpkins), and red dots represent enemies.
+
+Q: How to pause the game?
+A: The game cannot be paused.
+
+Q: How to exit the game?
+A: You can close the current game directly, but this does not guarantee that your score will be recorded. 
+    Currently only includes a "quit" button in the start and end menus to quit the game.
