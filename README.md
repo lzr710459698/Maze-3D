@@ -1,1 +1,1 @@
-# My-project COP 4331 final project
+# This is the Final Project code for COP 4331
